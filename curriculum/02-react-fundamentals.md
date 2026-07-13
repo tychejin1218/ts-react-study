@@ -6,7 +6,9 @@
 ## 환경 준비
 
 - [ ] `playground/react/` 에 프로젝트 생성: `npm create vite@latest . -- --template react-ts`
-- [ ] VS Code 확장: ES7+ React snippets (선택)
+- [ ] WebStorm에서 열기 — JSX/TSX 지원, 컴포넌트 자동 완성, Emmet 모두 기본 내장 (별도 플러그인 불필요)
+  - `rsc` 등 라이브 템플릿으로 컴포넌트 뼈대 생성 가능 (Settings → Editor → Live Templates → React)
+  - 실행/디버그: npm 스크립트 창에서 `dev` 실행, 또는 JavaScript Debug 구성으로 브라우저 디버깅
 - [ ] React DevTools 브라우저 확장 설치 — **디버깅 필수 도구**
 
 ## Week 3: 컴포넌트와 상태

@@ -6,7 +6,9 @@
 ## 환경 준비
 
 - [ ] Node.js LTS 설치 (nvm 권장: `brew install nvm`)
-- [ ] VS Code + 확장: ESLint, Prettier
+- [ ] WebStorm 설정 (IntelliJ와 단축키·워크플로 동일):
+  - Settings → Languages & Frameworks → JavaScript → Prettier → **Automatic Prettier configuration** + Run on save 체크
+  - ESLint는 프로젝트에 설정 파일이 있으면 자동 인식됨 (Automatic ESLint configuration 확인)
 - [ ] 실습 환경: `playground/ts/` 에 `npm create vite@latest . -- --template vanilla-ts` 또는 [TS Playground](https://www.typescriptlang.org/play) 활용
 
 ## Week 1: 기본 타입 시스템
