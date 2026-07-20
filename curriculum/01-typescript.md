@@ -5,16 +5,16 @@
 
 ## 환경 준비
 
-- [ ] Node.js LTS 설치 (nvm 권장: `brew install nvm`)
+- [x] Node.js LTS 설치 (nvm 권장: `brew install nvm`)
 - [ ] WebStorm 설정 (IntelliJ와 단축키·워크플로 동일):
   - Settings → Languages & Frameworks → JavaScript → Prettier → **Automatic Prettier configuration** + Run on save 체크
   - ESLint는 프로젝트에 설정 파일이 있으면 자동 인식됨 (Automatic ESLint configuration 확인)
-- [ ] 실습 환경: `playground/ts/` 에 `npm create vite@latest . -- --template vanilla-ts` 또는 [TS Playground](https://www.typescriptlang.org/play) 활용
+- [x] 실습 환경: `playground/ts/` 에 `npm init -y && npm install -D typescript tsx && npx tsc --init` 후 `npx tsx <파일>` 로 실행, 또는 [TS Playground](https://www.typescriptlang.org/play) 활용
 
 ## Week 1: 기본 타입 시스템
 
 ### Day 1-2: 기본 문법
-- [ ] [TS Handbook - The Basics](https://www.typescriptlang.org/docs/handbook/2/basic-types.html) 읽기
+- [x] [TS Handbook - The Basics](https://www.typescriptlang.org/docs/handbook/2/basic-types.html) 읽기
 - [ ] 원시 타입, 배열, 객체 타입 선언
 - [ ] `let` vs `const`와 타입 추론 — **명시적 타입 선언을 최소화하고 추론에 맡기는 게 관용적**
 - [ ] 함수 타입: 매개변수, 반환 타입, 선택적 매개변수(`?`), 기본값
