@@ -15,10 +15,10 @@
 
 ### Day 1-2: 기본 문법
 - [x] [TS Handbook - The Basics](https://www.typescriptlang.org/docs/handbook/2/basic-types.html) 읽기
-- [ ] 원시 타입, 배열, 객체 타입 선언
-- [ ] `let` vs `const`와 타입 추론 — **명시적 타입 선언을 최소화하고 추론에 맡기는 게 관용적**
+- [x] 원시 타입, 배열, 객체 타입 선언
+- [x] `let` vs `const`와 타입 추론 — **명시적 타입 선언을 최소화하고 추론에 맡기는 게 관용적**
 - [ ] 함수 타입: 매개변수, 반환 타입, 선택적 매개변수(`?`), 기본값
-- [ ] 화살표 함수 문법 완전히 익히기 (React에서 계속 쓴다)
+- [x] 화살표 함수 문법 완전히 익히기 (React에서 계속 쓴다)
 
 ### Day 3-4: TS의 핵심 차별점
 - [ ] **구조적 타이핑(structural typing)** 이해 — Java의 명목적(nominal) 타이핑과의 결정적 차이
