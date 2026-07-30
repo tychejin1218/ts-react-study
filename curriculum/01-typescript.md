@@ -21,12 +21,12 @@
 - [x] 화살표 함수 문법 완전히 익히기 (React에서 계속 쓴다)
 
 ### Day 3-4: TS의 핵심 차별점
-- [ ] **구조적 타이핑(structural typing)** 이해 — Java의 명목적(nominal) 타이핑과의 결정적 차이
+- [x] **구조적 타이핑(structural typing)** 이해 — Java의 명목적(nominal) 타이핑과의 결정적 차이
   - 같은 구조면 같은 타입. `implements` 없이도 호환된다
-- [ ] **유니온 타입** `string | null` — Java의 Optional을 타입 레벨로 끌어온 것
-- [ ] **리터럴 타입** `type Status = 'pending' | 'active' | 'done'` — enum보다 이걸 먼저, 더 자주 쓴다
-- [ ] `interface` vs `type` — 실무 기준: 객체 형태는 아무거나 일관되게, 유니온/유틸리티는 `type`
-- [ ] `null` vs `undefined`, 옵셔널 체이닝 `?.`, null 병합 `??`
+- [x] **유니온 타입** `string | null` — Java의 Optional을 타입 레벨로 끌어온 것
+- [x] **리터럴 타입** `type Status = 'pending' | 'active' | 'done'` — enum보다 이걸 먼저, 더 자주 쓴다
+- [x] `interface` vs `type` — 실무 기준: 객체 형태는 아무거나 일관되게, 유니온/유틸리티는 `type`
+- [x] `null` vs `undefined`, 옵셔널 체이닝 `?.`, null 병합 `??`
 
 ### Day 5-7: 타입 좁히기(Narrowing)
 - [ ] [TS Handbook - Narrowing](https://www.typescriptlang.org/docs/handbook/2/narrowing.html) 정독
