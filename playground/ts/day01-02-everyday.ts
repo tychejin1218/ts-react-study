@@ -1,5 +1,5 @@
 // TS Handbook - Everyday Types 실습 기록 (2026-07-30)
-// 실행: npx tsx everyday.ts / 타입 검사만: npx tsc
+// 실행: npx tsx day01-02-everyday.ts / 타입 검사만: npx tsc
 
 // 실습 1: 타입 추론과 넓히기(widening) — let은 넓게, const는 좁게
 // let a = "hello" → string (재할당 가능하니 넓힘) / const b = "hello" → "hello" 리터럴

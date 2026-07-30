@@ -1,5 +1,5 @@
 // TS Handbook Day 3-4 실습 기록 (2026-07-30)
-// 실행: npx tsx day3.ts / 타입 검사만: npx tsc
+// 실행: npx tsx day03-04-core.ts / 타입 검사만: npx tsc
 
 // 실습 1: null vs undefined, 옵셔널 체이닝(?.), null 병합(??)
 // undefined = "아직 값 없음"(시스템이 자동 생성) / null = "의도적으로 비움"(사람이 대입)
