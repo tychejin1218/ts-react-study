@@ -1,4 +1,4 @@
-// TS Handbook Day 3-4 실습 기록 (2026-07-30)
+// TS Handbook Day 3-4 실습 기록
 // 실행: npx tsx day03-04-core.ts / 타입 검사만: npx tsc
 
 // 실습 1: null vs undefined, 옵셔널 체이닝(?.), null 병합(??)

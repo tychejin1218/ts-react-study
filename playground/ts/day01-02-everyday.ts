@@ -1,4 +1,4 @@
-// TS Handbook - Everyday Types 실습 기록 (2026-07-30)
+// TS Handbook - Everyday Types 실습 기록
 // 실행: npx tsx day01-02-everyday.ts / 타입 검사만: npx tsc
 
 // 실습 1: 타입 추론과 넓히기(widening) — let은 넓게, const는 좁게

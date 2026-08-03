@@ -1,4 +1,4 @@
-// TS Handbook - The Basics 실습 기록 (2026-07-20)
+// TS Handbook - The Basics 실습 기록
 // 실행: npx tsx day01-02-basics.ts / 타입 검사만: npx tsc
 
 // 실습 1: 정적 타입 검사 — TS는 "실행 전에" 오류를 잡는다
