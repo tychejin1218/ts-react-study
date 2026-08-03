@@ -30,14 +30,14 @@
 
 ### Day 5-7: 타입 좁히기(Narrowing)
 - [ ] [TS Handbook - Narrowing](https://www.typescriptlang.org/docs/handbook/2/narrowing.html) 정독
-- [ ] `typeof`, `in`, `instanceof` 가드
-- [ ] **판별 유니온(discriminated union)** — TS에서 가장 중요한 패턴
+- [x] `typeof`, `in`, `instanceof` 가드
+- [x] **판별 유니온(discriminated union)** — TS에서 가장 중요한 패턴
   ```ts
   type ApiResponse<T> =
     | { status: 'success'; data: T }
     | { status: 'error'; message: string };
   ```
-- [ ] `never`를 이용한 완전성 검사(exhaustiveness check) — switch문에서 케이스 누락을 컴파일 에러로
+- [x] `never`를 이용한 완전성 검사(exhaustiveness check) — switch문에서 케이스 누락을 컴파일 에러로
 - [ ] 사용자 정의 타입 가드 (`x is Foo`)
 
 ### Week 1 실습 과제
