@@ -17,7 +17,7 @@
 - [x] [TS Handbook - The Basics](https://www.typescriptlang.org/docs/handbook/2/basic-types.html) 읽기
 - [x] 원시 타입, 배열, 객체 타입 선언
 - [x] `let` vs `const`와 타입 추론 — **명시적 타입 선언을 최소화하고 추론에 맡기는 게 관용적**
-- [ ] 함수 타입: 매개변수, 반환 타입, 선택적 매개변수(`?`), 기본값
+- [x] 함수 타입: 매개변수, 반환 타입, 선택적 매개변수(`?`), 기본값
 - [x] 화살표 함수 문법 완전히 익히기 (React에서 계속 쓴다)
 
 ### Day 3-4: TS의 핵심 차별점
