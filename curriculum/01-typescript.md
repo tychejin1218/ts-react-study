@@ -38,7 +38,7 @@
     | { status: 'error'; message: string };
   ```
 - [x] `never`를 이용한 완전성 검사(exhaustiveness check) — switch문에서 케이스 누락을 컴파일 에러로
-- [ ] 사용자 정의 타입 가드 (`x is Foo`)
+- [x] 사용자 정의 타입 가드 (`x is Foo`)
 
 ### Week 1 실습 과제
 - [x] 백엔드에서 다루던 도메인 하나(예: 주문, 결제)를 TS 타입으로 모델링해보기

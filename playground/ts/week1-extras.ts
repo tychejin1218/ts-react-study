@@ -1,4 +1,4 @@
-// Week 1 보충: 함수 기본값(default parameter)
+// Week 1 보충: 함수 기본값(default parameter) + 사용자 정의 타입 가드(x is Foo)
 // 실행: npx tsx week1-extras.ts / 타입 검사만: npx tsc
 
 // 실습 1: 함수 기본값 — 인자를 안 넘기면 기본값 사용 (Java의 메서드 오버로딩 대체)
@@ -20,3 +20,24 @@ function defaultParam(x = 10) {
   return x; // x: number
 }
 console.log(optionalParam(), defaultParam()); // undefined 10
+
+// 실습 2: 사용자 정의 타입 가드 — 반환 타입을 `x is Foo`로 쓰면 호출한 쪽에서 타입이 좁혀진다
+// 일반 boolean 함수는 좁히기 효과가 없다. 로직이 같아도 반환 타입만 다르면 결과가 갈린다
+// 주의: typeof x === "object" 뒤엔 반드시 x !== null (typeof null === "object"라 in 연산자가 터짐)
+// → 정리: x is Foo는 "참이면 이 타입"이라는 약속. TS는 로직을 검증하지 않으니 몸통은 개발자 책임(as와 같은 성질)
+type Person = { name: string };
+
+function isPerson(x: unknown): x is Person {
+  return typeof x === "object" && x !== null && "name" in x;
+}
+
+const raw: unknown = { name: "kim" };
+if (isPerson(raw)) {
+  console.log(raw.name); // raw가 Person으로 좁혀짐 → as 없이 안전 접근
+} else {
+  console.log("Person 아님");
+}
+console.log(isPerson(null), isPerson({ name: "lee" })); // false true
+
+// 함정 기록: x !== null 을 빼면 isPerson(null) 호출 시
+// typeof null === "object"가 true라 "name" in null 에서 런타임 TypeError 발생
