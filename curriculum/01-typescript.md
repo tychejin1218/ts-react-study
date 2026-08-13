@@ -6,7 +6,7 @@
 ## 환경 준비
 
 - [x] Node.js LTS 설치 (nvm 권장: `brew install nvm`)
-- [ ] WebStorm 설정 (IntelliJ와 단축키·워크플로 동일):
+- [x] WebStorm 설정 (IntelliJ와 단축키·워크플로 동일):
   - Settings → Languages & Frameworks → JavaScript → Prettier → **Automatic Prettier configuration** + Run on save 체크
   - ESLint는 프로젝트에 설정 파일이 있으면 자동 인식됨 (Automatic ESLint configuration 확인)
 - [x] 실습 환경: `playground/ts/` 에 `npm init -y && npm install -D typescript tsx && npx tsc --init` 후 `npx tsx <파일>` 로 실행, 또는 [TS Playground](https://www.typescriptlang.org/play) 활용
@@ -47,9 +47,9 @@
 ## Week 2: 제네릭과 실전 패턴
 
 ### Day 8-10: 제네릭
-- [ ] 제네릭 함수, 제네릭 타입 — Java 제네릭과 거의 같지만 추론이 훨씬 강력
-- [ ] 제약 조건 `<T extends { id: string }>`
-- [ ] `keyof`, 인덱스 접근 타입 `T[K]`
+- [x] 제네릭 함수, 제네릭 타입 — Java 제네릭과 거의 같지만 추론이 훨씬 강력
+- [x] 제약 조건 `<T extends { id: string }>`
+- [x] `keyof`, 인덱스 접근 타입 `T[K]`
 - [ ] 유틸리티 타입 암기 수준으로: `Partial`, `Required`, `Pick`, `Omit`, `Record`, `ReturnType`
 
 ### Day 11-12: 안전성 관련
